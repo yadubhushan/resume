@@ -6,14 +6,14 @@ Bengaluru, India | linkedin.com/in/yadu-bhushan-4a044aa2 | github.com/yadubhusha
 
 ## Summary
 
-Senior backend/platform engineer with 12+ years across Amazon, Barclaycard US, Veritas, enterprise Java systems, payments, Prime membership workflows, Alexa routing, and independent AI product engineering. I help teams turn ambiguous backend, automation, and reliability problems into designed, documented, production-ready systems.
+Senior backend and platform engineer with 12+ years of experience, including five years at Amazon and earlier work on credit-card APIs at Barclaycard US. Built Java services for payments, Prime membership, and Alexa routing. Since 2022, building independent products with Python, TypeScript, and Kotlin, including AI video automation and productivity apps.
 
-## Core Services
+## Core Expertise
 
-- Backend and platform engineering: Java/Python services, API design, integration workflows, shared libraries, and production handoff.
-- AI automation systems: OpenAI/OpenRouter integrations, media pipelines, workflow jobs, provider abstraction, and user-facing workflow UIs.
-- Payments and membership workflows: credit-card APIs, installment-plan selection, Prime billing recovery, event-driven redrive flows, and operational runbooks.
-- Reliability and migration: latency-sensitive routing changes, shadow testing, downstream timeouts, monitoring/alarms, and safe ownership transitions.
+- Backend engineering: Java and Python services, APIs, third-party integrations, and shared libraries.
+- AI automation: OpenAI and OpenRouter integrations, media processing, background jobs, and web interfaces.
+- Payments: credit-card APIs, installment-plan selection, and Prime billing recovery.
+- Reliability: service migrations, shadow testing, dependency timeouts, monitoring, alarms, and runbooks.
 
 ## Technical Skills
 
@@ -26,57 +26,57 @@ Senior backend/platform engineer with 12+ years across Amazon, Barclaycard US, V
 
 ## Experience
 
-### Independent Product Engineer / AI Automation Builder
+### Independent Product Engineer
 
-Backend, AI Automation, Product Systems | Nov 2022 - Present
+AI Video Automation and Productivity Apps | Nov 2022 - Present
 
-- Built AI/video automation systems with Python workflow jobs, media-processing utilities, storage helpers, AI provider integrations, and background-job infrastructure.
-- Extracted reusable platform code into a Python toolkit for Firestore/database access, GCP/AWS storage, AI integrations, video/image/audio processing, structured logging, secret handling, and Cloud Run jobs.
-- Shipped a Next.js/TypeScript workflow UI for script generation, user-specific settings, model/provider configuration, OpenAI/OpenRouter integrations, pipeline progress, and account/workflow concepts.
-- Built and iterated AutoPomodoro, an Android/Kotlin productivity product with Pomodoro tracking, camera/face detection, Firebase persistence, history, habit tracking, Jetpack Compose migration, multi-user support, task management, and crash fixes.
-- Maintained engineering study and second-brain infrastructure around system design, DDD, coding patterns, cloud, AI tooling, and backend architecture.
+- Built Python jobs for AI video automation, integrating AI providers, media processing, and cloud storage.
+- Moved code shared across projects into a Python toolkit for database access, GCP/AWS storage, AI integrations, media processing, logging, secrets, and Cloud Run jobs.
+- Shipped a Next.js and TypeScript interface for script generation. Users can configure OpenAI/OpenRouter models, save their settings, and track pipeline progress.
+- Built AutoPomodoro in Kotlin with focus-session and habit tracking, camera-based face detection, and Firebase storage. Added multi-user support and task management, migrated screens to Jetpack Compose, and fixed crashes.
+- Maintained personal study tools and a second-brain system for notes on system design, DDD, coding patterns, cloud services, and AI tools.
 
 ### Amazon - Software Development Engineer II
 
 Prime Payments, Alexa Routing, Prime Internal Tools | Sep 2017 - Nov 2022
 
-- Designed and implemented a latency-neutral milestone for an Alexa voice-routing candidate proposal system, migrating legacy proposers, adding routing signals, coordinating external data-source teams, and validating release safety with production-data shadow testing.
-- Helped deliver an event-driven Prime payments redrive flow for members in Billing Problem State, supporting a projected +450K annualized member-retention opportunity through automated billing retry after members added valid payment instruments.
-- Owned operational/runbook work around Prime payment redrive behavior, including SQS queues, visibility timeouts, monitoring, alarms, and handoff details for production support.
-- Designed and implemented a configurable navigation framework for Prime content preview workflows, replacing brittle hardcoded paths with extensible configuration and hooks for marketplace-specific behavior.
-- Improved internal preview-tool adoption by resolving blockers and correctness issues; project metrics showed preview usage rising from 11% to 38% MoM and workflow failures dropping from 45% to 20% MoM.
-- Improved reliability of internal content-preview services by adding per-dependency timeouts, availability/latency alarms, and stress-testing preparation after downstream dependency risks were identified.
-- Designed and implemented a reusable installment-plan rule engine for Amazon payments affordability, selecting plans from customer and transaction context while separating domain rules from product-specific integrations.
-- Co-authored Prime Plan Ingestion self-service proposal/design documentation, implemented the G2S2 adapter, and helped transition Prime systems from SLO to BLR without production issues.
+- Migrated components of Alexa's voice-routing system and added routing signals without increasing latency. Coordinated with teams supplying the data and checked the changes using shadow tests on production data.
+- Helped build an event-driven Prime payment recovery flow that retried billing after members added a valid payment method. The launch projection was 450K additional memberships retained annually.
+- Owned the operational setup and runbook for Prime payment recovery, covering SQS queues, visibility timeouts, monitoring, alarms, and support handoff.
+- Built a configurable navigation framework for Prime content previews, replacing hardcoded paths and allowing marketplaces to customize behavior.
+- Resolved blockers and correctness issues in Prime's internal preview tool. Project metrics showed usage rising from 11% to 38% and workflow failures falling from 45% to 20% in a month-over-month comparison.
+- Added dependency-specific timeouts and availability and latency alarms to content-preview services, and helped prepare stress tests to address dependency risks.
+- Built a reusable rule engine to select installment plans from customer and transaction data, keeping plan-selection rules separate from product integrations.
+- Co-wrote the proposal and design for self-service Prime plan ingestion, implemented the G2S2 adapter, and helped transfer Prime systems from SLO to BLR without production issues.
 
 ### Veritas - Software Engineer II
 
 Enterprise E-Discovery Platform | Jan 2017 - Sep 2017
 
-- Enhanced Clearwell document-review workflows in a compliance-sensitive enterprise Java backend using Java 8, REST, Hibernate, MySQL, and Struts 2.
-- Implemented GDPR-related bulk redaction and deletion support and contributed to job-framework spike/refactoring work for large document operations.
+- Developed document-review features for Clearwell, an enterprise e-discovery platform, using Java 8, REST, Hibernate, MySQL, and Struts 2.
+- Implemented bulk redaction and deletion features for GDPR requirements. Contributed to investigation and refactoring of the job framework for large document operations.
 
 ### Barclaycard US - Backend Services Engineer
 
 Business API / Credit Card Systems | Mar 2015 - Jan 2017
 
-- Built backend services for credit-card processing, account, payment, transaction, and rewards APIs using SOAP/REST integrations, Spring, Hibernate, Oracle DB, Maven, and JMS.
-- Supported legacy monolith-to-microservice migration, integrated third-party vendors including TSYS and Maritz, and improved a critical API response time from approximately 25 seconds to 7-8 seconds.
+- Built credit-card services and APIs for accounts, payments, transactions, and rewards using Spring, Hibernate, Oracle DB, SOAP/REST, Maven, and JMS.
+- Helped migrate a monolith to microservices and integrated TSYS and Maritz. Reduced a critical API's response time from about 25 seconds to 7-8 seconds.
 
 ### MetaDesign Solutions - Java/J2EE Engineer
 
 Enterprise Web Applications | Jan 2012 - Mar 2015
 
-- Built enterprise Java web applications, Spring/Jersey REST services, Struts 2/SOAP logic, Jenkins automation, remote deployment workflows, and customer-facing product features.
-- Worked on Naehas Merge Server and Airmeals Pre-Buy, including cart-system functionality, dynamic page integration with JavaScript/jQuery, and Windows/Linux deployment support.
+- Built enterprise Java web applications and REST services with Spring and Jersey, and developed Struts 2 and SOAP features. Automated builds with Jenkins and supported remote deployments.
+- Worked on Naehas Merge Server and Airmeals Pre-Buy, adding shopping-cart features and dynamic pages with JavaScript/jQuery and supporting deployments on Windows and Linux.
 
-## Selected Systems & Delivery Style
+## Selected Work
 
-- Alexa routing migration: latency-sensitive Java service work, legacy proposer migration, external signal integration, pre-fetching, and production-data shadow testing.
-- Prime payments recovery: event-driven billing retry workflows, SQS/visibility-timeout behavior, monitoring, operational runbooks, and projected member-retention impact.
-- AI automation platform: reusable Python/GCP libraries, Cloud Run job support, Firestore/storage helpers, AI provider integration, media processing, and workflow infrastructure.
-- Internal platform tooling: configurable navigation framework, preview validation correctness, UAT blocker resolution, and adoption/reliability improvements for business users.
-- Delivery style: deep dive into existing systems, write design docs/runbooks, break ambiguous domains into safe milestones, review code/designs, and help teammates ramp.
+- Alexa routing: Java service migration, integration of external signals, pre-fetching, and shadow testing on production data.
+- Prime payment recovery: billing retries triggered by events, SQS queue configuration, monitoring, and support runbooks.
+- AI video automation: shared Python libraries, Cloud Run jobs, Firestore, cloud storage, and AI and media-processing integrations.
+- Prime preview tools: configurable navigation, validation fixes, UAT support, and service reliability improvements.
+- Engineering practice: investigate existing systems, write designs and runbooks, plan incremental changes, review code, and help teammates learn the system.
 
 ## Education & Certifications
 
